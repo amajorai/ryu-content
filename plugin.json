@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.content",
+  "version": "0.1.15",
+  "description": "An unlisted placeholder for a planned local-first content planning app. It ships no interface, runtime, or contributions yet, so it is hidden from the store.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-content",
+  "repository": "https://github.com/amajorai/ryu-content",
+  "keywords": ["content", "creator", "publishing", "scheduling", "analytics"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/content",
+      "displayName": "Content"
+    }
+  }
+}
